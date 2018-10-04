@@ -1,6 +1,6 @@
 # "Head First Design Pattern" Notes
 
-***Vocabulary:*** <br>
+### ***Vocabulary:*** <br>
 <strong> ***Participants*** </strong>:classes interacting with each other<br>
 ***Collaboration***: how classes interact with each other<br>
 ***Consequences*** -tradeoffs of choosing a particular design pattern<br>
@@ -9,7 +9,9 @@
 ***Known uses***- examples of real usages of the pattern<br>
 ***Related patterns***-other patterns that have some relationship with the pattern;<br> 
 
+### Chapter 1: ***Introduction to Design Patterns***
 
+### Chapter 2: ***The Observer Pattern***
 ***DESIGN PRINCIPLE***<br>
 ***Identify the aspects of your application that vary and separate them from what stays the same (static and dynamic stuff mixed, example- static html and ruby within static). This way you can alter or extend without affecting other parts***<br>
 •	Basis of almost every design pattern- every instance variable must represent an object in the class<br>
