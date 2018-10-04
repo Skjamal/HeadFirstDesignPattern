@@ -38,3 +38,20 @@
 
 ***OBSERVER PATTERN***<br>
 Observer Pattern-defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. The subject is the sole owner of data. Cleaner OO design. One-to-Many relationships (subject-observers)
+
+#### CHAPTER 3: ***The Decorator Pattern: Decorating Objects***<br>
+* Decorators allow for ways of inheriting behavior at runtime through ***composition*** and ***delegation***<br>
+### Inheritance Versus Composition<br>
+* Decorators have the same supertype as the objects they decorate <br>
+* You can use one or more decorators to wrap an object <br>
+* Inheritance is set statically at compile time<br>
+* With inheritance, all sublcasses inherit the same behavior<br>
+* Composition allows for multiple new responsibilities to objects<br>
+### ***Open-Closed Design Principle***<br>
+* Code should be closed to change, open for extension.<br>
+* Classes can be easily extended to incorporate new behavior without modifying existing code.<br>
+* Resilient to change/flexible to take on new functionality<br>
+##### KEY POINT: The decorator adds its own behavior either before and/or after delegating to the object it decorates to do the rest of the job.<br>
+* Objects can be decorated at any time<br>
+
+
