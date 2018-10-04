@@ -37,9 +37,9 @@
 •	Favor Has-a relationships (has an engine) over is-a relationship (is an engine)<br>
 
 ***OBSERVER PATTERN***<br>
-Observer Pattern-defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. The subject is the sole owner of data. Cleaner OO design. One-to-Many relationships (subject-observers)
+Observer Pattern-defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. The subject is the sole owner of data. Cleaner OO design. One-to-Many relationships (subject-observers)<br>
 
-#### CHAPTER 3: ***The Decorator Pattern: Decorating Objects***<br>
+## CHAPTER 3: ***The Decorator Pattern: Decorating Objects***<br>
 * Decorators allow for ways of inheriting behavior at runtime through ***composition*** and ***delegation***<br>
 ### Inheritance Versus Composition<br>
 * Decorators have the same supertype as the objects they decorate <br>
